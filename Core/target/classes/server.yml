@@ -1,0 +1,40 @@
+# Modo Debug
+debug: false
+
+# Permissão
+admin-permission-node: "core.admin"
+# Mensagem do SetSpawn
+spawn-point-set-message: "&bLobby Setado"
+# Mensagem de recarregamento
+files-reloaded-message: "&bConfigs Recarregadas"
+# Mensagem permissão insuficiente
+no-permission-message: "&cVocê não possui permissão para usar este comando."
+# Mensagem permissão insuficiente fly
+no-flypermission-message: "&cVocê não tem acesso a este recurso.\n&cAdquira Ranks para voar nos lobbies."
+# LOBBY
+lobby-join-title: "§a§lNeobyMC"
+lobby-join-subtitle: "§eSeja bem-vindo!"
+# Selecionar servidor
+server-selector:
+    material: "COMPASS"
+    display-name: "&aSelecionar jogo"
+    lore: "&7Abra o menu de jogos!"
+    # Tamanho do inventario
+    inventory-size: 27
+    # Slot da HotBar
+    slot: 0
+    items:
+      0:
+         material: "BED"
+         title: "&aBed Wars"
+         lore:
+            - "&70 jogando agora!"
+         # Slot no inventario
+         slot: 10
+         command: "/play BedWars"
+profile:
+  items:
+      lore:
+        - "{rank}"
+        - "&7Primeiro login: n/a"
+        - "&7Último login: n/a"

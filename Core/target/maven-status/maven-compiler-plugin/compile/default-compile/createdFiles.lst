@@ -1,0 +1,15 @@
+br\com\core\Commands\SpawnCommand.class
+br\com\core\Utils\TagAPI.class
+br\com\core\Utils\Configs.class
+br\com\core\mysql\MySQLManager.class
+br\com\core\Listeners\BuildListener.class
+br\com\core\Core$1.class
+br\com\core\Listeners\ChatListener.class
+br\com\core\Tag.class
+br\com\core\mysql\ProfileManager.class
+br\com\core\NPC\NPCManager.class
+br\com\core\Commands\LobbyCommand.class
+br\com\core\Manager.class
+br\com\core\Visibility.class
+br\com\core\Utils\Files.class
+br\com\core\Core.class

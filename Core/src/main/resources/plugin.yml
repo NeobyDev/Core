@@ -1,0 +1,20 @@
+name: Lobby
+version: '${project.version}'
+main: br.com.core.Core
+description: Esse é um plugin de lobby
+
+commands:
+  spawn:
+    description: Ir até o spawn!
+  build:
+    description: Ativar o build!
+  fly:
+    description: Voar pelo lobby!
+  tag:
+    description: Mudar sua tag!
+  lobby:
+    description: Voltar para o lobby!
+  l:
+    description: Voltar para o lobby!
+  hub:
+    description: Voltar para o lobby!
